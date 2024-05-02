@@ -1,16 +1,16 @@
 {
-   "name": "gifted-md",
+   "name": "Zaman-Janjua",
    "version": "2.5.1",
-   "description": "Multi device whatsapp bot by GiftedTech.",
+   "description": "Multi device whatsapp bot by Zaman Janjua.",
    "main": "lib/smd.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start lib/smd.js --deep-monitoring --attach --name GiftedMd || lib/node smd.js",
-            "start": "pm2 start lib/smd.js --attach --name GiftedMd || node lib/smd.js",
-            "stop": "pm2 stop GiftedMd",
+            "run": "pm2 start lib/smd.js --deep-monitoring --attach --name ZAMAN JANJUA|| lib/node smd.js",
+            "start": "pm2 start lib/smd.js --attach --name ZAMAN JANJUA|| node lib/smd.js",
+            "stop": "pm2 stop ZAMAN JANJUA",
             "heroku-postbuild": "git clone https://github.com/mouricedevs/gifted-md.git temp1 && mv temp1/.git .git && rm -rf temp1"
    },
-   "author": "GiftedTech",
+   "author": "ZAMAN JANJUA",
    "license" :"Apache-2.0",
    "dependencies": { 
              "@adiwajshing/keyed-db": "^0.2.4",
